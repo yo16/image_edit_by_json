@@ -17,19 +17,37 @@
                 "y": 100
             },
             "font": "Arial",
-            "font_size": 20,
+            "font_size": 50,
             "color": "white"
         },
         {
             "type": "add_text",
-            "text": "test2",
+            "text": "テスト2です",
             "position": {
                 "x": 150,
                 "y": 200
             },
-            "font": "Arial",
-            "font_size": 20,
-            "color": "black"
+            "font": "meiryo",
+            "font_size": 80,
+            "color": "#ffcc33",
+            "stroke": {
+                "width": 5,
+                "color": "#ff0000"
+            }
+        },
+        {
+            "type": "add_text",
+            "text": "テスト３です！日本語だけどフォント指定なし",
+            "position": {
+                "x": 130,
+                "y": 250
+            },
+            "font_size": 50,
+            "color": "#33cc66",
+            "stroke": {
+                "width": 3,
+                "color": "white"
+            }
         }
     ]
 }

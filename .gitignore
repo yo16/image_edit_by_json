@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# fontは、再配布不可のものを含むため、gitignoreに入れる
+src/fonts/
+
