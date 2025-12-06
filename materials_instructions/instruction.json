@@ -1,0 +1,35 @@
+{
+    "source_image": "materials_instructions/20251204_raw.png",
+    "output_image": "materials_instructions/20251204_edited.png",
+    "edit": [
+        {
+            "type": "change_size",
+            "size": {
+                "width": 100,
+                "height": 100
+            }
+        },
+        {
+            "type": "add_text",
+            "text": "test1",
+            "position": {
+                "x": 100,
+                "y": 100
+            },
+            "font": "Arial",
+            "font_size": 20,
+            "color": "black"
+        },
+        {
+            "type": "add_text",
+            "text": "test2",
+            "position": {
+                "x": 150,
+                "y": 200
+            },
+            "font": "Arial",
+            "font_size": 20,
+            "color": "black"
+        }
+    ]
+}
